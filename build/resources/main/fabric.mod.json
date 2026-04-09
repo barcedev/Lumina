@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "lumina",
+	"version": "0.1.1",
+	"name": "Lumina",
+	"description": "A niche fullbright mod",
+	"authors": [
+		"barce"
+	],
+	"license": "MIT",
+	"icon": "assets/lumina/icon.png",
+	"environment": "client",
+	"accessWidener": "lumina.accesswidener",
+	"entrypoints": {
+		"client": [
+			"com.barce.client.LuminaClient"
+		],
+		"sodium:config_api_user": [
+			"com.barce.client.sodium.LuminaSodiumConfig"
+		]
+	},
+	"mixins": [
+		"lumina.mixins.json",
+		"lumina.client.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"sodium": "*"
+	}
+}

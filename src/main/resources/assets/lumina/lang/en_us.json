@@ -1,0 +1,33 @@
+{
+  "category.lumina": "Lumina",
+  "key.lumina.toggle": "Toggle Fullbright",
+  "key.category.lumina.category": "Lumina",
+
+  "lumina.options.page": "General",
+  "lumina.options.page_extras": "Dimension",
+
+  "lumina.options.show_toggle_message": "Toggle Message",
+  "lumina.options.show_toggle_message.tooltip": "Show an action bar message when toggling fullbright.",
+  "lumina.options.show_dimension_change_message": "Toggle Dimension Message",
+  "lumina.options.show_dimension_change_message.tooltip": "Show an action bar message when brightness changes due to a dimension change.",
+  "lumina.options.simple_message": "Simple Message",
+  "lumina.options.simple_message.tooltip": "Swaps the percentage message with an on/off message",
+
+  "lumina.options.group.global":   "Global Brightness",
+  "lumina.options.group.hud": "Actionbar",
+  "lumina.options.group.overworld": "Overworld",
+  "lumina.options.group.nether":    "Nether",
+  "lumina.options.group.the_end":   "The End",
+
+  "lumina.options.global_default": "Default Brightness",
+  "lumina.options.global_default.tooltip": "The base brightness level used when fullbright is off and no per-dimension override is set.",
+
+  "lumina.options.global_fullbright": "Fullbright Brightness",
+  "lumina.options.global_fullbright.tooltip": "The brightness level applied when fullbright is toggled on and no per-dimension override is set.",
+
+  "lumina.options.dim_default": "Default Brightness",
+  "lumina.options.dim_default.tooltip": "Overrides the global default brightness for this dimension. Set to 'Global' to use the global setting.",
+
+  "lumina.options.dim_fullbright": "Fullbright Brightness",
+  "lumina.options.dim_fullbright.tooltip": "Overrides the global fullbright brightness for this dimension. Set to 'Global' to use the global setting."
+}

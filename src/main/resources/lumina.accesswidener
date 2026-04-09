@@ -1,0 +1,5 @@
+accessWidener v2 official
+
+accessible field net/minecraft/client/OptionInstance value Ljava/lang/Object;
+accessible field net/minecraft/client/OptionInstance onValueUpdate Ljava/util/function/Consumer;
+accessible field net/minecraft/client/OptionInstance caption Lnet/minecraft/network/chat/Component;
